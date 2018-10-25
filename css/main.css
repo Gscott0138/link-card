@@ -10,7 +10,7 @@ html {
 }
 
 .link-card {
-  display: block;
+  display: inline-block;
   background-color: #dcd4cd;
   border-style: solid;
   border-width: 3px;
@@ -18,7 +18,7 @@ html {
   border-radius: 8px;
   text-decoration: none;
   color: #512200;
-  padding:  1rem;
+  padding: 1rem;
 }
 
 .link-card:hover {
@@ -54,11 +54,19 @@ html {
 
 .list {
   font-size: .875rem;
+  border-top: solid;
+  border-bottom: solid;
+  border-width: 2px;
+  border-color: #9a816d;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin: 0 0 1rem;
 }
- .list dt {
-   float: left;
-   width: 50%;
- }
+
+.list dt {
+  float: left;
+  width: 50%;
+}
 
 dd {
   font-style: italic;
