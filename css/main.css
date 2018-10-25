@@ -1,7 +1,65 @@
 html {
   box-sizing: border-box;
+  font-family: Georgia, sans-serif;
+  line-height: 1.5;
+  background-color: #f0eee8;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+.link-card {
+  display: block;
+  background-color: #dcd4cd;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #9a816d;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #512200;
+  padding:  1rem;
+}
+
+.link-card:hover {
+  background-color: #cabdb2;
+}
+
+.link-card h2 {
+  font-family: Dosis, sans-serif;
+  color: #512200;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.btn-wrap {
+  margin: 0 0 1rem;
+  text-align: center;
+  font-family: Dosis, sans-serif;
+  font-size: 1.125rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.btn {
+  background-color: #785439;
+  padding: .4em .75em .5em;
+  border-radius: 3px;
+}
+
+.link-card:hover .btn {
+  background-color: #512200;
+}
+
+.list {
+  font-size: .875rem;
+}
+ .list dt {
+   float: left;
+   width: 50%;
+ }
+
+dd {
+  font-style: italic;
 }
